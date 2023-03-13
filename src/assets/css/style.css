@@ -54,6 +54,31 @@ main {
     cursor: pointer;
 }
 
+.img--container {
+   min-width: 100%;
+   position: relative;
+}
+
 .meme--img {
-    width: 100%;
+    object-fit: fill;
+    min-width: 600px;
+    max-height: 400px;
+}
+
+.top--text {
+    position: absolute;
+    top: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bottom--text {
+    position: absolute;
+    top: 15rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
 }
